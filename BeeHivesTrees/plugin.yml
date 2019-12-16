@@ -1,0 +1,7 @@
+name: BeeHivesTrees
+main: net.minemora.beehivestrees.BeeHivesTrees
+version: 1.1
+api-version: 1.15
+author: Esmorall
+description: Add a chance to spawn a beehive when a tree grows from a sapling.
+commands:
