@@ -1,0 +1,8 @@
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+website: https://www.spigotmc.org/resources/beehivestrees-grow-trees-from-saplings-with-bees.73394
+author: Esmorall
+contributors: [arboriginal]
+main: net.minemora.beehivestrees.BeeHivesTrees
+api-version: 1.15

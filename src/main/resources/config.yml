@@ -1,0 +1,38 @@
+# ----------------------------------------------------------------------------------------------------------------------
+# ${project.name}, version ${project.version} -  Configuration file.
+# Author: Esmorall - Forked by: arboriginal
+# ----------------------------------------------------------------------------------------------------------------------
+
+chance-to-have-a-bee-nest: 5
+# (decimal) Percentage of chance (from 0 to 100), a bee nest spawn.
+
+min-bees-per-nest: 1
+max-bees-per-nest: 5
+# (integer) How many bees per tree with nest, min and max.
+
+allow-from-bonemeal: false
+# (true / false) If true, bone mealed saplings have no chance to spawn nest.
+
+allow-all-biomes: false
+# (true / false) If true, all biomes are allowed and the list below is ignored.
+
+allowed-biomes:
+  - BIRCH_FOREST
+  - BIRCH_FOREST_HILLS
+  - FLOWER_FOREST
+  - FOREST
+  - PLAINS
+  - SUNFLOWER_PLAINS
+  - TALL_BIRCH_FOREST
+  - TALL_BIRCH_HILLS
+# Available values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+
+allow-all-tree-types: false
+# (true / false) If true, all tree types are allowed and the list below is ignored.
+
+allowed-tree-types:
+  - BIG_TREE
+  - BIRCH
+  - TALL_BIRCH
+  - TREE
+# Available values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/TreeType.html
